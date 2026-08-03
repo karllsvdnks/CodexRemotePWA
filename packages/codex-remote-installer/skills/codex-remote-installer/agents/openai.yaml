@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Remote Installer"
+  short_description: "Install and maintain a private Codex PWA."
+  default_prompt: "Use $codex-remote-installer to install or repair a private Codex Remote PWA on Windows."

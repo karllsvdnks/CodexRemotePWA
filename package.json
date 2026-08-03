@@ -1,0 +1,16 @@
+{
+  "name": "codex-remote-pwa",
+  "version": "0.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node test/integration.mjs",
+    "auth:api": "node scripts/bootstrap-codex-api-auth.mjs",
+    "package:release": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\\package-release.ps1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "codex-remote-installer",
+  "version": "0.0.2",
+  "description": "Install and maintain a private Codex Remote PWA on Windows.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Remote Installer",
+    "shortDescription": "Deploy a private Codex Remote PWA on Windows.",
+    "longDescription": "Configure, validate, and maintain a manual-start Codex Remote PWA behind Tailscale.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $codex-remote-installer to install or repair a private Codex Remote PWA on Windows."
+  }
+}
